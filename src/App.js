@@ -18,10 +18,7 @@ function App() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  // const offer = {
-  //   opacity: 0.7,
-  //   backgroundColor: "lightblack"
-  // }
+
   return (
     <BrowserRouter basename="/orderingwebsite">
       <Navbar bg="secondary" expand="lg">
