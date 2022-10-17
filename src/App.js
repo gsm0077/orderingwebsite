@@ -23,7 +23,7 @@ function App() {
   //   backgroundColor: "lightblack"
   // }
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/orderingwebsite">
       <Navbar bg="secondary" expand="lg">
         <Container>
           <Navbar.Brand href="home">GSM Tech</Navbar.Brand>
