@@ -43,7 +43,7 @@ function App() {
 
       <Routes>
         <Route
-          path="/orderingwebsite"
+          path="/"
           element={
             <div>
               <Home clicking={handleShow} clicks={handleShow} />
