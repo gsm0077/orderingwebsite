@@ -23,11 +23,11 @@ function App() {
     <BrowserRouter>
       <Navbar bg="secondary" expand="lg">
         <Container>
-          <Navbar.Brand href="/orderingwebsite">GSM Tech</Navbar.Brand>
+          <Navbar.Brand href="/">GSM Tech</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/orderingwebsite">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="tblog">Tech blog</Nav.Link>
               <NavDropdown title="Shop" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/mobiles">Mobiles</NavDropdown.Item>
