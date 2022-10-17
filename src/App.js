@@ -26,11 +26,11 @@ function App() {
     <BrowserRouter basename="/orderingwebsite">
       <Navbar bg="secondary" expand="lg">
         <Container>
-          <Navbar.Brand href="home">GSM Tech</Navbar.Brand>
+          <Navbar.Brand href="/orderingwebsite">GSM Tech</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="home">Home</Nav.Link>
+              <Nav.Link href="/orderingwebsite">Home</Nav.Link>
               <Nav.Link href="tblog">Tech blog</Nav.Link>
               <NavDropdown title="Shop" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/mobiles">Mobiles</NavDropdown.Item>
@@ -46,7 +46,7 @@ function App() {
 
       <Routes>
         <Route
-          path="home"
+          path="/orderingwebsite"
           element={
             <div>
               <Home clicking={handleShow} clicks={handleShow} />
