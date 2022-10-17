@@ -20,7 +20,7 @@ function App() {
   const handleShow = () => setShow(true);
 
   return (
-    <BrowserRouter basename="/orderingwebsite">
+    <BrowserRouter>
       <Navbar bg="secondary" expand="lg">
         <Container>
           <Navbar.Brand href="/orderingwebsite">GSM Tech</Navbar.Brand>
