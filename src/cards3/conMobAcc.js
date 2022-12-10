@@ -7,8 +7,7 @@ export class Mobacc extends React.Component {
     const finalcard = cardmoba.map((val) => {
       return (
         <div
-          className="col-6 col-md-4"
-          style={{ backgroundColor: "black", textAlign: "center" }}>
+        className="cardelement">
           <Card
             img={val.img}
             alter={val.alter}
@@ -21,7 +20,7 @@ export class Mobacc extends React.Component {
     });
     return (
       <>
-        <div className="row" style={{display:"flex"}}>{finalcard}</div>
+        <div className="cardrow">{finalcard}</div>
       </>
     );
   }

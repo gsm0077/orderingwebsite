@@ -12,6 +12,7 @@ import { Mobile } from "./cards/Containmobiles";
 import { Pcom } from "./card2/ContainLap";
 import { Mobacc } from "./cards3/conMobAcc";
 import { Blog } from "./Blog/Blog";
+import {Userform} from "./Practice/practice";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -27,7 +28,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/home">Home</Nav.Link>
               <Nav.Link href="tblog">Tech blog</Nav.Link>
               <NavDropdown title="Shop" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/mobiles">Mobiles</NavDropdown.Item>
@@ -42,6 +43,7 @@ function App() {
       </Navbar>
 
       <Routes>
+        <Route path="/home" element={<Userform/>} />
         <Route
           path="/"
           element={

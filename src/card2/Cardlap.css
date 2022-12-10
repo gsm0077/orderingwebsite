@@ -1,0 +1,31 @@
+.cardrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
+
+.cardelement{
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width:640px){
+    .cardrow{
+        display: grid;
+        grid-template-columns: 1fr  ;
+    }
+}
+
+ @media (min-width: 768px) { 
+    .cardrow{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+ }
+ @media (min-width: 1280px) {
+    .cardrow{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+ }

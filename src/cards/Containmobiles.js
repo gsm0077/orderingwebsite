@@ -1,14 +1,14 @@
 import React from "react";
 import cardmobile from "./cardcontent";
 import { Card } from "./Cards";
+import "./mobile.css"
 
 export class Mobile extends React.Component {
   render() {
     const finalcard = cardmobile.map((val) => {
       return (
         <div
-          className="col-6 col-md-4"
-          style={{ backgroundColor: "black", textAlign: "center" }}>
+        className="cardelement">
           <Card
             img={val.img}
             alter={val.alter}
@@ -21,7 +21,7 @@ export class Mobile extends React.Component {
     });
     return (
       <>
-        <div className="row" style={{display:"flex"}}>{finalcard}</div>
+        <div className="cardrow">{finalcard}</div>
       </>
     );
   }
